@@ -6,4 +6,104 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/backImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wall"
+        android:contentDescription="wall"/>
+
+    <Button
+        android:id="@+id/newBtn"
+        android:layout_width="184dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/gold"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="New"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+    <Button
+        android:id="@+id/selectBtn"
+        android:layout_width="184dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/gold"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Select"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Dungeon Crawlr"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/slotBtn1"
+        android:layout_width="383dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:drawable/zoom_plate"
+        android:text="Character 1"
+        android:textAllCaps="true"
+        android:textColor="@color/gold"
+        android:textIsSelectable="false"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/backImg"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/backImg"
+        app:layout_constraintTop_toBottomOf="@+id/titleText1" />
+
+    <TextView
+        android:id="@+id/titleText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select Character"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@android:drawable/btn_dialog"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
