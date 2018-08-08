@@ -17,8 +17,7 @@
 
 <h2>Attributes</h2>
 
-  Players have two **primary** attributes: Health(HP) and Mana(MP)<br>
-  and four **secondary** attributes: Strength(STR), Dexterity(DEX), Intelligence(INT), and Luck(LUK).
+  Players have two **primary** attributes: Health(HP) and Mana(MP) and four **secondary** attributes: Strength(STR), Dexterity(DEX), Intelligence(INT), and Luck(LUK).
   
   <h4>Health</h4>
     Affects how much damage a player can take before they die.
@@ -49,19 +48,19 @@
   Each class has unique moves and items and relies on specific secondary attributes.
 
   <h4>Fighter</h4>
-    Difficulty: Easy
+    Difficulty: Easy<br>
     Melee class that relies on strength and uses swords and shields.
     
   <h4>Archer</h4>
-    Difficulty: Medium
+    Difficulty: Medium<br>
     Ranged class that relies on dexterity and uses bows.
     
   <h4>Wizard</h4>
-    Difficulty: Medium
+    Difficulty: Medium<br>
     Magic class that relies on intelligence and uses wands and spell books.
 
   <h4>Gambler</h4>
-    Difficulty: Hard
+    Difficulty: Hard<br>
     Special class that relies on luck and uses dice.
 
 <h2>Items</h2>
