@@ -13,8 +13,46 @@
 
 <h2>Description</h2>
 
-  Single player two dimensional class-based dungeon crawler role playing game. Players choose a class and can level-up, explore dungeons, loot items, and become stronger while progressing through the game. Players progress though a series of dungeons which are procedurally generated.
+  Single player two dimensional class-based dungeon crawler role playing game. Players choose a class and can level-up, explore dungeons, loot items, and become stronger while progressing through the game. Players progress though a series of dungeons which have procedurally generated rooms.
 
+<h2>Dungeons</h2>
+
+  Linear collections of room instances in which the player progresses through. Dungeons also have a theme and monster level.
+  
+  <h4>Themes</h4>
+    Each dungeon has a theme which changes as the player progresses through the game.<br>
+    Themes correspond with player/monsters level and determine what npcs and types of monsters the player encounters.<br>
+    Progression starts at the lowest point in the map - and goes as follows:<br>
+    Underworld -> Underground -> Sewers -> City -> Rooftops -> Sky -> Space<br>
+    
+   <h6>Underworld</h6>
+    Hell like place where the player begins. Dungeons contain evil creatures.
+   <h6>Underground</h6>
+    Deep underground dungeons. Dungeons contain mole people. Boss is leader of mole people.
+   <h6>Sewers</h6>
+    Waterways and tunnels under the City. Dungeons contain ??????. Boss is ?????.
+   <h6>City</h6>
+    Metropolitan area on the surface. Dungeons contain humans. Boss is ??????.
+   <h6>Rooftops</h6>
+    Tops of the City buildings. Dungeons contain bussinessmen. Boss is CEO.
+   <h6>Sky</h6>
+    Heaven like place. Dungeons contain angels. Boss is demigod.
+   <h6>Space</h6>
+    Extraterrestrial area. Dungeons contain space creatures. Boss is creator.
+   
+  
+  <h4>Rooms</h4>
+    Individual instances of player encounters in a dungeon. Rooms have a dungeon theme, type, and doors.
+    
+   <h6>Room Types</h6>
+    Start<br>
+    End<br>
+    Monster<br>
+    Boss<br>
+    Camp<br>
+    Loot<br>
+    Puzzle<br>
+   
 <h2>Attributes</h2>
 
   Players have two **primary** attributes: Health(HP) and Mana(MP) and four **secondary** attributes: Strength(STR), Dexterity(DEX), Intelligence(INT), and Luck(LUK).
